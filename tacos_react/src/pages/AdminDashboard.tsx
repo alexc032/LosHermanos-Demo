@@ -63,7 +63,7 @@ const AdminDashboard: React.FC = () => {
     <div style={{ minHeight: '100vh', background: 'var(--color-bg)', padding: '2rem', color: 'var(--color-text)' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem', borderBottom: '1px solid #444', paddingBottom: '1rem' }}>
-          <h2>🌮 Panel de Cotizaciones</h2>
+          <h2> Panel de Cotizaciones</h2>
           <button onClick={handleLogout} className="btn" style={{ background: '#e74c3c', color: 'white' }}>Cerrar Sesión</button>
         </div>
 

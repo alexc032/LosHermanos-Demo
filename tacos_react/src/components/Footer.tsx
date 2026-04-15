@@ -33,10 +33,6 @@ const Footer: React.FC<FooterProps> = ({ smoothScrollTo }) => {
                     </ul>
                 </div>
             </div>
-            <div className="footer-bottom">
-                <p>&copy; 2026 El Sabor Mexicano. Todos los derechos reservados.</p>
-                <p>Hecho con ❤️ y mucho chile 🌶️</p>
-            </div>
         </div>
     </footer>
   );

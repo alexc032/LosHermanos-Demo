@@ -59,11 +59,7 @@ const ContactForm: React.FC = () => {
                     <div className="contact-details">
                         <div className="contact-item">
                             <div className="contact-icon">📞</div>
-                            <div><h4>Teléfono</h4><p>123456789</p></div>
-                        </div>
-                        <div className="contact-item">
-                            <div className="contact-icon">📧</div>
-                            <div><h4>Email</h4><p>LosHermanos@gmail.com</p></div>
+                            <div><h4>Teléfono</h4><p>921 201 6132</p> <p>921 267 0005</p></div>
                         </div>
                         <div className="contact-item">
                             <div className="contact-icon">📍</div>
@@ -71,7 +67,7 @@ const ContactForm: React.FC = () => {
                         </div>
                         <div className="contact-item">
                             <div className="contact-icon">⏰</div>
-                            <div><h4>Horario</h4><p>Sabado-Domingo - 1:00 PM a 7:00 PM</p></div>
+                            <div><h4>Horario</h4><p>Sabado-Domingo</p></div>
                         </div>
                     </div>
                 </div>

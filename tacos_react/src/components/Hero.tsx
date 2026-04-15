@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ particlesContainerRef, heroImageRef, smooth
         </div>
         <div className="hero-image-wrapper" ref={heroImageRef} data-animate="fade-left">
             <div className="hero-image-glow"></div>
-            <img src="/hero_tacos.png" alt="Delicioso taco al pastor" className="hero-image" loading="eager" />
+            <img src="/LosHermanos.png" alt="Delicioso taco al pastor" className="hero-image" loading="eager" />
         </div>
         <div className="hero-scroll-indicator">
             <span>Descubre más</span>

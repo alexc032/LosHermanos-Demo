@@ -25,7 +25,7 @@ const Testimonials: React.FC<TestimonialsProps> = ({ trackRef, currentSlide, tot
                             <div className="author-avatar">MR</div>
                             <div>
                                 <h4>María Rodríguez</h4>
-                                <p>Boda - Diciembre 2025</p>
+                                <p>Boda - Marzo 2026</p>
                             </div>
                         </div>
                     </div>
@@ -36,18 +36,18 @@ const Testimonials: React.FC<TestimonialsProps> = ({ trackRef, currentSlide, tot
                             <div className="author-avatar">CG</div>
                             <div>
                                 <h4>Carlos García</h4>
-                                <p>Evento corporativo - Enero 2026</p>
+                                <p>Evento corporativo - Marzo 2026</p>
                             </div>
                         </div>
                     </div>
                     <div className="testimonial-card">
                         <div className="testimonial-stars">⭐⭐⭐⭐⭐</div>
-                        <p className="testimonial-text">"Pedimos el paquete VIP para el cumpleaños de mi abuelita y fue todo un éxito. Los taqueros son profesionales y muy amables. ¡Repetiremos seguro!"</p>
+                        <p className="testimonial-text">"Pedimos una taquiza para 50 personas en el cumpleaños de mi abuelita y fue todo un éxito. Los taqueros son profesionales y muy amables. ¡Repetiremos seguro!"</p>
                         <div className="testimonial-author">
                             <div className="author-avatar">AL</div>
                             <div>
                                 <h4>Ana López</h4>
-                                <p>Cumpleaños - Febrero 2026</p>
+                                <p>Cumpleaños - Marzo 2026</p>
                             </div>
                         </div>
                     </div>
