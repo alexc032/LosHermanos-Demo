@@ -143,7 +143,7 @@ function App() {
       {/* 1. Global Preloader */}
       <div id="preloader">
           <div className="loader">
-              <img src="/LosHermanos.png" alt="Logo Los Hermanos" className="loader-icon" style={{ maxHeight: '50px', width: 'auto', marginRight: '10px' }} />
+              <img src="/LosHermanos.png" alt="Logo Los Hermanos" className="loader-icon" style={{ maxHeight: '100px', width: 'auto', marginRight: '10px' }} />
               <p className="loader-text">Preparando el sabor...</p>
           </div>
       </div>
