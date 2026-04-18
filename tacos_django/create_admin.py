@@ -7,14 +7,16 @@ django.setup()
 from django.contrib.auth.models import User
 
 try:
-    user, created = User.objects.get_or_create(
+    # 1. Borrar absolutamente todos los usuarios existentes (Limpieza nuclear)
+    User.objects.all().delete()
+    print("Usuarios antiguos eliminados con éxito.")
+
+    # 2. Crear un usuario limpio desde 0
+    User.objects.create_superuser(
         username='ElHermano_228391',
-        defaults={'email': 'ElHermano_228391@gmail.com'}
+        email='ElHermano_228391@gmail.com',
+        password='H3rmanosTacos$2149!'
     )
-    user.set_password('H3rmanosTacos$2149!')
-    user.is_superuser = True
-    user.is_staff = True
-    user.save()
-    print("¡Exito rotundo! Contraseña reparada y guardada a la velocidad de la luz.")
+    print("¡Exito rotundo! Base de datos reiniciada y superusuario creado intacto.")
 except Exception as e:
     print(f"Hubo un error: {e}")
