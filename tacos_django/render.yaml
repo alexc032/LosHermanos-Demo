@@ -5,6 +5,7 @@ services:
   - type: web
     name: tacos-django-backend
     env: python
+    rootDir: tacos_django
     buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --no-input"
     startCommand: "gunicorn TacosWeb.wsgi:application"
     envVars:
