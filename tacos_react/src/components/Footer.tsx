@@ -11,8 +11,8 @@ const Footer: React.FC<FooterProps> = ({ smoothScrollTo }) => {
             <div className="footer-grid">
                 <div className="footer-brand">
                     <a href="#" className="nav-logo" onClick={(e) => smoothScrollTo(e, '#inicio')}>
-                        <span className="logo-icon">🌮</span>
-                        <span className="logo-text">Taquizas <span className="logo-accent">Los Hermanos</span></span>
+                        <img src="/LosHermanos.png" alt="Logo Los Hermanos" className="logo-image" style={{ maxHeight: '50px', width: 'auto', marginRight: '10px' }} />
+                        <span className="logo-text">Taquizas <span className="logo-accent">El Hermano</span></span>
                     </a>
                     <p>Llevamos el auténtico sabor de México a tu evento. Calidad, tradición y sazón en cada taco.</p>
                 </div>

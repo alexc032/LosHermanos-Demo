@@ -31,7 +31,7 @@ const Login: React.FC = () => {
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '100vh', background: 'var(--color-bg)' }}>
       <div style={{ background: '#2d2d2d', padding: '3rem', borderRadius: '15px', width: '100%', maxWidth: '400px', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
-          <span style={{ fontSize: '3rem' }}>🌮</span>
+          <img src="/LosHermanos.png" alt="Logo" style={{ width: 'auto', height: '100px' }} />
           <h2 style={{ color: 'var(--color-text)', marginTop: '1rem' }}>Admin Login</h2>
         </div>
 

@@ -15,7 +15,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, isNavOpen, setIsNavOpen, ac
         <div className="nav-container">
             <a href="#" className="nav-logo" onClick={(e) => smoothScrollTo(e, '#inicio')}>
                 <img src="/LosHermanos.png" alt="Logo Los Hermanos" className="logo-image" style={{ maxHeight: '50px', width: 'auto', marginRight: '10px' }} />
-                <span className="logo-text">Taquizas <span className="logo-accent">Los Hermanos</span></span>
+                <span className="logo-text">Taquizas <span className="logo-accent">El Hermano</span></span>
             </a>
             <ul className={`nav-links ${isNavOpen ? 'open' : ''}`}>
                 <li><a href="#inicio" className={`nav-link ${activeSection === 'inicio' ? 'active' : ''}`} onClick={(e) => smoothScrollTo(e, '#inicio')}>Inicio</a></li>
