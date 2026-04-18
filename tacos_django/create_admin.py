@@ -11,11 +11,11 @@ try:
     User.objects.all().delete()
     print("Usuarios antiguos eliminados con éxito.")
 
-    # 2. Crear un usuario limpio desde 0
+    # 2. Crear un usuario limpio desde 0 (credenciales súper seguras pero sin símbolos conflictivos)
     User.objects.create_superuser(
-        username='ElHermano_228391',
-        email='ElHermano_228391@gmail.com',
-        password='H3rmanosTacos$2149!'
+        username='adminhermano',
+        email='contacto@elsabormexicano.com',
+        password='TacosHermano123!'
     )
     print("¡Exito rotundo! Base de datos reiniciada y superusuario creado intacto.")
 except Exception as e:
