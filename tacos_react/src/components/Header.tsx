@@ -20,6 +20,7 @@ const Header: React.FC<HeaderProps> = ({ isScrolled, isNavOpen, setIsNavOpen, ac
             <ul className={`nav-links ${isNavOpen ? 'open' : ''}`}>
                 <li><a href="#inicio" className={`nav-link ${activeSection === 'inicio' ? 'active' : ''}`} onClick={(e) => smoothScrollTo(e, '#inicio')}>Inicio</a></li>
                 <li><a href="#testimonios" className={`nav-link ${activeSection === 'testimonios' ? 'active' : ''}`} onClick={(e) => smoothScrollTo(e, '#testimonios')}>Testimonios</a></li>
+                <li><a href="#galeria" className={`nav-link ${activeSection === 'galeria' ? 'active' : ''}`} onClick={(e) => smoothScrollTo(e, '#galeria')}>Galería</a></li>
                 <li><a href="#contacto" className={`nav-link nav-cta ${activeSection === 'contacto' ? 'active' : ''}`} onClick={(e) => smoothScrollTo(e, '#contacto')}>¡Cotiza Ahora!</a></li>
             </ul>
             <button className={`nav-toggle ${isNavOpen ? 'active' : ''}`} id="navToggle" onClick={() => {

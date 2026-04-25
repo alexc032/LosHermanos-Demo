@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Testimonials from '../components/Testimonials';
 import ContactForm from '../components/ContactForm';
+import Gallery from '../components/Gallery';
 import Footer from '../components/Footer';
 
 function App() {
@@ -143,7 +144,7 @@ function App() {
       {/* 1. Global Preloader */}
       <div id="preloader">
           <div className="loader">
-              <img src="/LosHermanos.png" alt="Logo Los Hermanos" className="loader-icon" style={{ maxHeight: '100px', width: 'auto', marginRight: '10px' }} />
+              <img src="/LosHermanos.png" alt="Logo Los Hermanos" className="loader-icon" style={{ maxHeight: '120px', width: 'auto', marginRight: '10px' }} />
               <p className="loader-text">Preparando el sabor...</p>
           </div>
       </div>
@@ -164,6 +165,8 @@ function App() {
           smoothScrollTo={smoothScrollTo} 
         />
         
+        <Gallery />
+
         <Testimonials 
           trackRef={trackRef} 
           currentSlide={currentSlide} 
