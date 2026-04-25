@@ -67,7 +67,7 @@ const AdminDashboard: React.FC = () => {
           <button onClick={handleLogout} className="btn" style={{ background: '#e74c3c', color: 'white' }}>Cerrar Sesión</button>
         </div>
 
-        <div style={{ background: '#1e1e1e', borderRadius: '10px', overflow: 'hidden', boxShadow: '0 4px 6px rgba(0,0,0,0.3)' }}>
+        <div style={{ background: '#1e1e1e', borderRadius: '10px', overflowX: 'auto', boxShadow: '0 4px 6px rgba(0,0,0,0.3)' }}>
           {pedidos.length === 0 ? (
             <div style={{ padding: '3rem', textAlign: 'center', color: '#888' }}>No hay cotizaciones nuevas por el momento.</div>
           ) : (
